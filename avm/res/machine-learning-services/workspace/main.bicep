@@ -185,7 +185,7 @@ resource cMKUserAssignedIdentity 'Microsoft.ManagedIdentity/userAssignedIdentiti
   )
 }
 
-resource workspace 'Microsoft.MachineLearningServices/workspaces@2022-10-01' = {
+resource workspace 'Microsoft.MachineLearningServices/workspaces@2024-04-01' = {
   name: name
   location: location
   tags: tags
